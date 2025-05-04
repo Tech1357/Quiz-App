@@ -3,9 +3,13 @@ A simple and interactive quiz application built using HTML, CSS, and JavaScript.
 
 🚀 Features
 🧠 10 Multiple Choice Questions
+
 ✅ Real-time Answer Tracking
+
 ⏭ Navigation Between Questions
+
 🧾 Score Display at the End
+
 🎨 Clean and Simple UI
 
 🛠️ Tech Stack
