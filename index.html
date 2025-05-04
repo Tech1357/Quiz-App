@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-heading">
+      <div id="top-headers">
+        <h1>Machine Learning Quiz</h1>
+      </div>
+    </div>
+    <div id="answered-tracker" style="margin-bottom: 0px; font-size: 1.1rem; font-weight: bold;margin-right:320px;margin-bottom: -25px;">
+        Answered: <span id="answered-count">0</span> / 10
+    </div>
+    <div>
+        <div id="timer-container" style="margin-right:-400px; font-size: 1 rem;margin-bottom:5px;">
+        <h3>Time Left: <span id="timer" style="font-size: 20px;">10:00</span> minutes</h3>
+        </div>
+    </div>
+  
+    <div id="main-box">
+      <div id="question">
+        <h2>Question</h2>
+      </div>
+      <div id="options">
+        <!-- Option buttons will be generated dynamically -->
+      </div>
+      <div id="final-block">
+        <button id="previous">Previous</button>
+        <button id="next">Next</button>
+        <button id="submit">Submit</button>
+      </div>
+      <div id="result"></div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+  </html>
